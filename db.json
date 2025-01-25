@@ -1,0 +1,18 @@
+{
+    "products": [
+        {
+            "id" :1,
+            "productName" : "Araba",
+            "price" : 22,
+            "categoryId" : "c8cb"
+
+        }
+    ],
+    "categories": [
+      {
+        "id": "c8cb",
+        "categoryName": "İnsan",
+        "description": "Mutlu insan"
+      }
+    ]
+  }
