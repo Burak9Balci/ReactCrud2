@@ -11,14 +11,14 @@ import Profile from "@components/user/Profile";
 export const AppRoutes = () => {
   return (
     <Routes>
-      <Route path="" element={<CategoryAdd />} />
-      <Route path="" element={<CategoryList />} />
-      <Route path="" element={<CategoryUpdate />} />
-      <Route path="" element={<ProductAdd />} />
-      <Route path="" element={<ProductList />} />
-      <Route path="" element={<ProductUpdate />} />
-      <Route path="" element={<Dashboard />} />
-      <Route path="" element={<Profile />} />
+      <Route path="/categories/Add" element={<CategoryAdd />} />
+      <Route path="/categories" element={<CategoryList />} />
+      <Route path="/categories/Update" element={<CategoryUpdate />} />
+      <Route path="/products/Add" element={<ProductAdd />} />
+      <Route path="/products" element={<ProductList />} />
+      <Route path="/products/Update" element={<ProductUpdate />} />
+      <Route path="/user/Dashboard" element={<Dashboard />} />
+      <Route path="/user/Profile" element={<Profile />} />
       <Route path="/" element={<Home />} />
     </Routes>
   );
